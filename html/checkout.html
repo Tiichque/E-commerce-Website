@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <link rel="icon" href="images/fevicon.png" type="image/gif" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>OnlyLens</title>
+
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+  <!-- header section strats -->
+  <header class="header_section header_inner">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg custom_nav-container ">
+        <a class="navbar-brand" href="index.html">
+          <span>OnlyLens</span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class=""> </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav  ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"><img src="images/homeicon.png" style="padding-bottom:2px; width: 22px; height: 20px;"><span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="products.html"><img src="images/products-icon.png" style="padding-bottom:2px; width: 20px; height: 17px;"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="checkout.html" style="background-color: rgb(167, 167, 167);">
+                <img src="images/shopping-bag.png" style="padding-bottom:3px; width: 20px; height: 19px;">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- end header section -->
+
+
+  <!-- contact section -->
+  <section class="contact_section layout_padding2-top layout_padding-bottom">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>Checkout <span>Cart</span></h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6 px-0">
+          <div class="form_container">
+            <form method = "get" action="checkoutservlet">
+              <div class="form-row">
+                <div class="form-group col">
+                  <input type="text" name = "buyer" class="form-control" placeholder="Your Name" required/>
+                </div>
+              </div>
+              <div>
+              <label for="payment" style="color: rgb(56, 56, 56);">Choose a payment method:</label>
+                <select name="payment" id="payment">
+              <option value="Paynow/Paylah">Paynow/Paylah</option>
+              <option value="Bank Transfer">Bank Transfer</option>
+              <option value="Credit/Debit Card">Credit/Debit Card</option>
+              </select>
+            </div>
+              <div class="btn_box" style="display:flex; justify-content: center;margin-top: 20px;">
+                <button>
+                  Checkout
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end contact section -->
+
+
+  <!-- info section -->
+
+  <section class="info_section ">
+    <div class="info_container ">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9">
+            <div class="info_contact ">
+              <div class="row">
+                <div class="col-md-3">
+                  <a href="#" class="link-box">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <span>
+                      NTU
+                    </span>
+                  </a>
+                </div>
+                <div class="col-md-5">
+                  <a href="#" class="link-box">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <span>
+                      JHONG016@e.ntu.edu.sg
+                    </span>
+                  </a>
+                </div>
+                <div class="col-md-4">
+                  <a href="#" class="link-box">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <span>
+                      DGOH038@e.ntu.edu.sg
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5  col-lg-3 mx-auto">
+          </div>
+        </div>
+        <div class="info_logo">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              ONLYLENS
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- end info section -->
+
+
+  <!-- jQery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.js"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+  <!-- End Google Map -->
+
+</body>
+
+</html>
